@@ -64,7 +64,7 @@
 </script>
 
 <div class="h-full flex flex-col gap-10 overflow-auto text-slate-100">
-	<h2 class="text-5xl font-bold text-center">Challenge 1</h2>
+	<h2 class="text-5xl font-bold text-center">Day 1</h2>
 	<Description htmlContent={description}></Description>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full justify-center mb-20">
