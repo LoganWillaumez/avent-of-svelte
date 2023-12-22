@@ -3,7 +3,6 @@
 	import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import type { Elf } from './model.js';
-	import { description } from './data.js';
 
 	export let data;
 

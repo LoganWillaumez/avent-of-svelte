@@ -28,5 +28,29 @@ export const description = {
     <p>You’ve been tasked with creating a Cookie Counter which can show the tally of cookies munched. We should also be able to add, remove, and reset the count. Svelte Bot, in it’s wisdom, recommends exploring the dynamic world of Svelte transitions/animations to level up your creation.</p>
     
     <p>If you’re up for it, you could consider adding a feature that shows Santa’s mood based on the number of cookies eaten – maybe he gets a little merrier with each cookie!</p>
-    `
+    `,
+    3: `
+    <p>With the elves now back busily crafting gifts and the festive atmosphere at its peak, attention shifts to the crucial task of loading Santa’s sleigh. However, Svelte Bot, with it’s precise calculations, has brought to light a critical limitation: Santa’s sleigh can carry a maximum load of only 100 kg per journey.</p>
+    
+    <p>Your mission is to help the Elves solve this crucial task. You’ll be in charge of creating a Sleigh Load Balancer (SLB™), a tool designed to ensure that the sleigh is packed efficiently without exceeding its maximum capacity.</p>
+    
+    <p>The Elves have kept a meticulous record of all the children and the weight of their presents in a JSON format. It’s your job to use this data to help keep the Sleigh within it’s new operating weight. You should create a tool where Santa can choose whose presents to include on his run. The tool should show the current sleigh load and if the maximum of 100kg has been exceeded.</p>
+
+    <p>As a bonus you could include an exciting data visualisation, or even a drag and drop interface!</p>
+
+    <p>Here is an example of what the Elves have stored:</p>
+    
+    <pre class="bg-slate-900 rounded-md p-5 text-slate-100">
+        [
+            { "name": "Kurtis", "weight": 8.20 },
+            { "name": "Branson", "weight": 4.31 },
+            { "name": "Danielle", "weight": 7.40 },
+            { "name": "Wanda", "weight": 7.04 },
+            { "name": "Claud", "weight": 4.93 },
+            ...
+        ]
+    </pre>
+    
+    <p>You can fetch this data by making a GET request to https://advent.sveltesociety.dev/data/2023/day-three.json</p>`
+
 }

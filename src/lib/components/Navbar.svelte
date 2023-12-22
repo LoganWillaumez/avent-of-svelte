@@ -16,9 +16,9 @@
 
 	let isMenuOpen = false;
 
-  function toggleMenu() {
-    isMenuOpen = !isMenuOpen;
-  }
+	const toggleMenu = () => {
+		isMenuOpen = !isMenuOpen;
+	}
 </script>
 <div class="md:hidden ">
 	<Hamburger class="fixed top-5 left-5" on:toggle={toggleMenu} />

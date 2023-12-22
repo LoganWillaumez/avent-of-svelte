@@ -33,8 +33,6 @@
     .change .bar3 {
         transform: rotate(-45deg);
     }
-
-
 </style>
 
 <script lang="ts">
@@ -48,7 +46,6 @@
         hamburgerOpen = !hamburgerOpen;
         dispatch('toggle');
     };
-
 
     const dispatch = createEventDispatcher();
 </script>
