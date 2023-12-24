@@ -51,6 +51,19 @@ export const description = {
         ]
     </pre>
     
-    <p>You can fetch this data by making a GET request to https://advent.sveltesociety.dev/data/2023/day-three.json</p>`
+    <p>You can fetch this data by making a GET request to https://advent.sveltesociety.dev/data/2023/day-three.json</p>`,
+    4: `
+    <p>In this particularly bustling holiday season, the focus at the North Pole has shifted towards a crucial aspect of the Christmas operation: the well-being of Santa Claus. This year, they want to set up a special system to monitor Santa’s heart rate throughout the day, to ensure he stays healthy and jolly! </p>
+
+    <p>You’ve been tasked with taking in the raw data to create Santa’s Heart Rate Monitor (SHRM™). This system will utilize real-time data from the North Pole Health Database. The elves envision a dashboard that not only displays the live heart rate of Santa but also calculates and shows an average over specified periods. Additionally, if you’re up to it they are keen on a historical view that charts Santa’s heart rate over the course of the day, offering insights into how various activities and moments affect him. </p>
+
+    <p>Svelte Bot setup a JSON endpoint for you to get the live data, which updates every second: https://advent.sveltesociety.dev/data/2023/day-four.json. Here is what that data looks like:</p>
+
+    <pre class="bg-slate-900 rounded-md p-5 text-slate-100">
+        {
+            "heartRate" : 65
+        }
+    </pre>
+    `
 
 }

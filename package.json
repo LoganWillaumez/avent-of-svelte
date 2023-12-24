@@ -40,6 +40,8 @@
 	"type": "module",
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "^6.5.1",
+		"@lottiefiles/svelte-lottie-player": "^0.3.0",
+		"lottie-web": "^5.12.2",
 		"svelte-fa": "^3.0.4"
 	}
 }
